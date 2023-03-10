@@ -1,0 +1,122 @@
+body {
+    font-family: Verdana;
+}
+h1 {
+    font-size: 4.5rem;
+}
+h2 {
+    font-size: 2.5rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 1.25rem;
+}
+h5 {
+    font-weight: 100;
+    font-size: .9375rem;
+}
+.no_underline {
+    text-decoration: none;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 87.5%;
+    background-color: #FFFFFF;
+    padding: 1rem 5.5rem;
+    z-index: 1;
+}
+.header_article {
+}
+.header_nav {
+    display: flex;
+    align-items: center;
+}
+.header_h2 {
+    color: #335576;
+}
+.header_h2--anchor {
+    text-decoration: none;
+    color: inherit;
+}
+#header_anchor--active {
+    border-bottom: .1875rem solid #DB7A4E;
+}
+.header_ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.header_li {
+    
+}
+.header_anchor {
+    text-decoration: none;
+    margin: 0 1rem;
+    padding-bottom: .5rem;
+    color: black;
+}
+.header_anchor:hover {
+    border-bottom: .1875rem solid #DB7A4E;
+}
+#header_anchor--active {
+    border-bottom: .1875rem solid #DB7A4E;
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fefaf5;
+    padding: 1rem 5.5rem 3rem 5.5rem;
+}
+.footer_heading2 {
+    color: #335576;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+.footer_article1 {
+    color: #335576;
+}
+
+.footer_article2 {
+}
+.footer_box--week {
+    display: inline-flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+.footer_article3 {
+}
+.footer_paragraph {
+    color: #DB7A4E;
+    margin: 1rem 0;
+    font-size: .75rem;
+}
+.footer_heading3 {
+    color: #335576;
+}
+.footer_anchor--email {
+    text-decoration: none;
+}
+.footer_social--images {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.footer_icon--instagram {
+    height: 1.5rem;
+    width: 100%;
+}
+.footer_icon--facebook {
+    height: 1.5rem;
+    width: 100%;
+}
+.footer_icon--twitter {
+    height: 1.5rem;
+    width: 100%;
+}
