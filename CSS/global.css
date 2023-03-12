@@ -33,10 +33,10 @@ h5 {
     display: flex;
     align-items: center;
 }
-.header__h2 {
+.header__h3 {
     color: #335576;
 }
-.header__h2--anchor {
+.header__h3--anchor {
     text-decoration: none;
     color: inherit;
 }

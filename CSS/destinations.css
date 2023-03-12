@@ -54,7 +54,6 @@
 }
 .section__box--unordered__list {
     list-style-type: none;
-    /* display: contents; */
     margin: 2rem 0;
 }
 .section__box--list__item {
