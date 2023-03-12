@@ -2,29 +2,29 @@
     margin: 0;
     padding: 0;
 }
-.section_hero {
+.section__hero {
     background-color: #fefaf5;
     display: flex;
     justify-content: space-around;
     padding: 6rem 5.5rem 4rem 5.5rem;
 }
-.hero_article {
+.hero__article {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 65%;
 }
-.hero_text--heading1 {
+.hero__text--heading1 {
     color: #335576;
     margin-bottom: 2rem;
 }
-.hero_text--heading3 {
+.hero__text--heading3 {
     color: #335576;
     margin-bottom: 2rem;
 }
-.hero_div--button {
+.hero__div--button {
 }
-.hero_button {
+.hero__button {
     background-color: #DB7A4E;
     color: white;
     height: 2.5rem;
@@ -35,26 +35,26 @@
     font-size: .9375rem;
     font-weight: 100;
 }
-.hero_image {
+.hero__image {
     display: flex;
     justify-content: right;
 }
-.hero_image--plane {
+.hero__image--plane {
     width: 80%;
 }
-.section_recommendations {
+.section__recommendations {
     margin: 3rem 5.5rem;
 }
-.recommendations_heading2 {
+.recommendations__heading2 {
     color: #335576;
     margin: 2rem 0;
 }
-.recommendations_image_border {
+.recommendations__image__border {
     display: flex;
     justify-content: center;
     gap: 4rem;
 }
-.recommendations_hawaii--box {
+.recommendations__hawaii--box {
     border: lightgray solid .0625rem;
     background-image: url(/Assets/images/Images/hawaii.jpg);
     background-size: cover;
@@ -65,7 +65,7 @@
     justify-content: flex-end;
     box-shadow: 0 .25rem .25rem rgba(0, 0, 0, .2);
 }
-.recommendations_iceland--box {
+.recommendations__iceland--box {
     border: lightgray solid .0625rem;
     background-image: url(/Assets/images/Images/iceland.jpg);
     background-size: cover;
@@ -76,7 +76,7 @@
     justify-content: flex-end;
     box-shadow: 0 .25rem .25rem rgba(0, 0, 0, .2);
 }
-.recommendations_greece--box {
+.recommendations__greece--box {
     border: lightgray solid .0625rem;
     background-image: url(/Assets/images/Images/greece.jpg);
     background-size: cover;
@@ -87,21 +87,21 @@
     justify-content: flex-end;
     box-shadow: 0 .25rem .25rem rgba(0, 0, 0, .2);
 }
-.recommendations_hawaii--text {
+.recommendations__hawaii--text {
     color: white;
     display: flex;
     align-self: flex-end;
     margin-bottom: 1.25rem;
     margin-right: 1.25rem;
 }
-.recommendations_iceland--text {
+.recommendations__iceland--text {
     color: white;
     display: flex;
     align-self: flex-end;
     margin-bottom: 1.25rem;
     margin-right: 1.25rem;
 }
-.recommendations_greece--text {
+.recommendations__greece--text {
     color: white;
     display: flex;
     align-self: flex-end;
