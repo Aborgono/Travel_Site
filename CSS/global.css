@@ -29,8 +29,6 @@ h5 {
     padding: 1rem 5.5rem;
     z-index: 1;
 }
-.header__article {
-}
 .header__nav {
     display: flex;
     align-items: center;
@@ -50,9 +48,6 @@ h5 {
     display: flex;
     padding: 0;
     margin: 0;
-}
-.header__li {
-    
 }
 .header__anchor {
     text-decoration: none;
@@ -81,15 +76,10 @@ h5 {
 .footer__article1 {
     color: #335576;
 }
-
-.footer__article2 {
-}
 .footer__box--week {
     display: inline-flex;
     flex-direction: column;
     margin-right: 2rem;
-}
-.footer__article3 {
 }
 .footer__paragraph {
     color: #DB7A4E;
